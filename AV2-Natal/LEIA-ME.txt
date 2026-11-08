@@ -1,0 +1,51 @@
+LOJA: Christmas Dreams
+SEGMENTO: Loja de produtos e decoração natalina
+TURMA: 1TI_
+
+INTEGRANTES:
+
+Nome completo - Luisa Alexandre
+
+Nome completo - Thaphinny Vitória dos Santos
+
+
+LINKS:
+Site (GitHub Pages): A preencher
+Repositório (GitHub): A preencher
+Vídeo (YouTube): A preencher
+
+RECURSOS DE JAVASCRIPT IMPLEMENTADOS:
+
+Slideshow - index.html
+
+Parallax - index.html
+
+Sons (música natalina e sino) - todas as páginas
+
+Cards dinâmicos (50 produtos) - produtos.html
+
+Filtro por categoria - produtos.html
+
+Busca de produtos - produtos.html
+
+Carrinho de compras com adição e remoção de produtos - carrinho.html
+
+Cálculo automático do subtotal e total - carrinho.html
+
+Contador de produtos no carrinho - todas as páginas
+
+Galeria com filtros e visualização de imagens - galeria.html
+
+Formulário de contato - contato.html
+
+Efeito de neve caindo - todas as páginas
+
+CRÉDITOS (imagens, sons e ícones):
+
+Imagens dos produtos: preencher com as fontes utilizadas.
+
+Música natalina: arquivo Mariah.mp3.
+
+Som de sino: arquivo sino.mp3.
+
+Ícones e emojis: preencher com as fontes utilizadas, caso necessário.

@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Christmas Dreams | Coleção de Natal</title>
+
+    <link rel="shortcut icon" href="img/logo-christmas-dreams.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="barra-superior">
+        Frete grátis para todo o Brasil nas compras acima de R$ 199
+    </div>
+
+    <!-- MENU -->
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            <img src="img/logo-christmas-dreams.png"
+                 alt="Christmas Dreams">
+        </a>
+
+        <button class="menu-btn" onclick="abrirMenu()">☰</button>
+
+        <nav>
+            <ul class="menu" id="menu">
+                <li><a class="ativo" href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <a href="produtos.html" class="carrinho">Sacola <span id="quantidade-carrinho">0</span></a>
+
+    </header>
+
+    <main>
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="banner">
+
+            <div class="banner-conteudo">
+
+                <span class="subtitulo">UMA TEMPORADA DE SONHOS</span>
+
+                <h1>CHRISTMAS<br>DREAMS</h1>
+
+                <p class="frase">
+                    The magic of Christmas, in every detail.
+                </p>
+
+                <a href="produtos.html" class="botao">
+                    Conhecer coleção
+                    <span>→</span>
+                </a>
+
+            </div>
+
+            <div class="indicadores">
+                <button aria-label="Imagem anterior">←</button>
+                <span>● ○ ○</span>
+                <button aria-label="Próxima imagem">→</button>
+            </div>
+
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="categorias">
+
+            <div class="titulo-secao">
+                <span></span>
+                <h2>Navegue por categorias</h2>
+                <span></span>
+            </div>
+
+            <div class="categorias-grid">
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/enfeites.png" alt="Enfeites de árvore">
+                    <h3>Enfeites de árvore</h3>
+                </a>
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/luzes.png" alt="Luzes natalinas">
+                    <h3>Luzes</h3>
+                </a>
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/brinquedos.png" alt="Brinquedos">
+                    <h3>Brinquedos</h3>
+                </a>
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/presentes.png" alt="Presentes de Natal">
+                    <h3>Embalagens e cartões</h3>
+                </a>
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/decoracao.png" alt="Decoração natalina">
+                    <h3>Decoração da casa</h3>
+                </a>
+
+                <a href="produtos.html" class="categoria">
+                    <img src="img/livros.png" alt="Livros">
+                    <h3>Livros</h3>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ESSÊNCIA DA MARCA -->
+        <section class="essencia">
+
+            <div class="essencia-texto">
+
+                <span class="subtitulo">NOSSA ESSÊNCIA</span>
+
+                <h2>Um Natal para<br>guardar na memória.</h2>
+
+                <p>
+                    Mais que uma loja, um convite para celebrar
+                    os momentos especiais e transformar pequenos
+                    detalhes em grandes lembranças.
+                </p>
+
+                <a href="sobre.html" class="link-elegante">
+                    Conheça nossa história →
+                </a>
+
+            </div>
+
+            <div class="essencia-imagem"></div>
+
+        </section>
+
+        <!-- CONTAGEM REGRESSIVA -->
+        <section class="contagem">
+
+            <span class="subtitulo">UMA DATA ESPECIAL SE APROXIMA</span>
+
+            <h2>O Natal está chegando.</h2>
+
+            <div id="contador" class="contador">
+                <div><strong id="dias">00</strong><span>Dias</span></div>
+                <div><strong id="horas">00</strong><span>Horas</span></div>
+                <div><strong id="minutos">00</strong><span>Minutos</span></div>
+                <div><strong id="segundos">00</strong><span>Segundos</span></div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <img src="img/logo-christmas-dreams.png"
+             alt="Logo Christmas Dreams">
+
+        <p>The magic of Christmas, in every detail.</p>
+
+        <span>© 2026 Christmas Dreams. Todos os direitos reservados.</span>
+
+    </footer>
+
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="js/neve.js"></script>
+
+    <script src="js/parallax.js"></script>
+
+    <script src="js/musica.js"></script>
+    <script src="js/sino.js"></script>
+    
+
+</body>
+</html>

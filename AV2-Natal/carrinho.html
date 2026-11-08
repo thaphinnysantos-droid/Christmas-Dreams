@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Sacola | Christmas Dreams</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="carrinho-topo">
+        CHRISTMAS DREAMS · SUA EXPERIÊNCIA DE NATAL
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="carrinho-header">
+
+        <a href="index.html" class="carrinho-logo">
+            Christmas Dreams
+        </a>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <main class="carrinho-pagina">
+
+        <!-- TÍTULO -->
+        <section class="carrinho-titulo">
+            <span>CHRISTMAS DREAMS</span>
+
+            <h1>Minha sacola</h1>
+
+            <p>
+                Seus produtos favoritos estão esperando por você.
+            </p>
+        </section>
+
+        <!-- ÁREA DO CARRINHO -->
+        <section class="carrinho-conteudo">
+
+            <!-- PRODUTOS -->
+            <div class="carrinho-lista">
+
+                <div class="carrinho-lista-topo">
+                    <h2>Seus produtos</h2>
+                    <span id="quantidade-itens">0 itens</span>
+                </div>
+
+                <div id="lista-carrinho">
+                    <!-- Os produtos serão colocados pelo JavaScript -->
+                </div>
+
+                <p id="mensagem-carrinho"></p>
+
+                <a href="produtos.html" class="continuar-comprando">
+                    ← Continuar comprando
+                </a>
+
+            </div>
+
+            <!-- RESUMO DO PEDIDO -->
+            <aside class="resumo-carrinho">
+
+                <h2>Resumo do pedido</h2>
+
+                <div class="resumo-linha">
+                    <span>Subtotal</span>
+                    <span id="subtotal">R$ 0,00</span>
+                </div>
+
+                <div class="resumo-linha">
+                    <span>Frete</span>
+                    <span>A calcular</span>
+                </div>
+
+                <div class="resumo-total">
+                    <span>Total</span>
+                    <strong id="total">R$ 0,00</strong>
+                </div>
+
+                <button id="finalizar-compra">
+                    Finalizar compra →
+                </button>
+
+                <button id="limpar-carrinho">
+                    Limpar sacola
+                </button>
+
+                <p>
+                    Uma experiência especial começa com pequenos detalhes.
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="contato-rodape">
+
+        <h2>Christmas Dreams</h2>
+
+        <p>O encanto vive em cada detalhe.</p>
+
+        <p>© 2026 Christmas Dreams</p>
+
+    </footer>
+
+    <script src="js/carrinho.js"></script>
+
+    <script src="js/musica.js"></script>
+    <script src="js/sino.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galeria | Christmas Dreams</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="galeria-topo">
+        CHRISTMAS DREAMS · THE MAGIC OF CHRISTMAS
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="galeria-header">
+
+        <a href="index.html" class="galeria-logo">
+            Christmas Dreams
+        </a>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="galeria.html" class="ativo">Galeria</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <a href="produtos.html" class="galeria-link">
+            Nossa coleção
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- BANNER -->
+        <section class="galeria-hero">
+
+            <span>CHRISTMAS DREAMS · INSPIRAÇÃO</span>
+
+            <h1>A beleza de um Natal inesquecível.</h1>
+
+            <p>
+                Uma coleção de momentos, detalhes e inspirações
+                que celebram a magia da época mais especial do ano.
+            </p>
+
+            <a href="#colecao-galeria">
+                Descubra a galeria ↓
+            </a>
+
+        </section>
+
+        <!-- GALERIA -->
+        <section class="galeria-conteudo" id="colecao-galeria">
+
+            <div class="galeria-titulo">
+                <span>NOSSO UNIVERSO</span>
+                <h2>Um olhar sobre o Natal</h2>
+                <p>
+                    Cada detalhe conta uma história.
+                </p>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="galeria-filtros">
+
+                <button class="filtro-galeria ativo"
+                    data-filtro="todos">Todos</button>
+
+                <button class="filtro-galeria"
+                    data-filtro="decoracao">Decoração</button>
+
+                <button class="filtro-galeria"
+                    data-filtro="presentes">Presentes</button>
+
+                <button class="filtro-galeria"
+                    data-filtro="detalhes">Detalhes</button>
+
+            </div>
+
+            <!-- MOSAICO DE FOTOGRAFIAS -->
+            <div class="galeria-grid">
+
+                <figure class="galeria-item grande"
+                    data-categoria="decoracao">
+
+                    <img src="img/arvore-elegante.png"
+                        alt="Árvore de Natal verde e dourada">
+
+                    <figcaption>O encanto da decoração</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="detalhes">
+
+                    <img src="img/enfeite-natal.png"
+                        alt="Enfeites natalinos elegantes">
+
+                    <figcaption>Detalhes que encantam</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="presentes">
+
+                    <img src="img/presentes-verde.png"
+                        alt="Presentes verdes com laços dourados">
+
+                    <figcaption>Presentes especiais</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="decoracao">
+
+                    <img src="img/decoracao-aconchegante.png"
+                        alt="Decoração natalina aconchegante">
+
+                    <figcaption>Uma atmosfera especial</figcaption>
+                </figure>
+
+                <figure class="galeria-item grande"
+                    data-categoria="detalhes">
+
+                    <img src="img/lacos-ornamentos.jpg"
+                        alt="Laços e ornamentos natalinos">
+
+                    <figcaption>A magia está nos detalhes</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="presentes">
+
+                    <img src="img/caixas-natal.png"
+                        alt="Caixas de presente de Natal">
+
+                    <figcaption>O prazer de presentear</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="decoracao">
+
+                    <img src="img/sala-decorada.png"
+                        alt="Ambiente decorado para o Natal">
+
+                    <figcaption>Momentos inesquecíveis</figcaption>
+                </figure>
+
+                <figure class="galeria-item"
+                    data-categoria="detalhes">
+
+                    <img src="img/detalhes.png"
+                        alt="Detalhes dourados de Natal">
+
+                    <figcaption>Beleza em cada escolha</figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+        <!-- FRASE FINAL -->
+        <section class="galeria-final">
+
+            <span>CHRISTMAS DREAMS</span>
+
+            <h2>O encanto vive em cada detalhe.</h2>
+
+            <p>
+                Descubra uma coleção criada para celebrar a magia do Natal.
+            </p>
+
+            <a href="produtos.html">
+                Conheça nossos produtos →
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="fechar-lightbox"
+            id="fechar-lightbox"
+            aria-label="Fechar imagem">
+            &times;
+        </button>
+
+        <img src="" alt="Fotografia ampliada" id="imagem-ampliada">
+
+        <p id="legenda-lightbox"></p>
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/galeria.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="js/musica.js"></script>
+    <script src="js/sino.js"></script>
+
+</body>
+</html>

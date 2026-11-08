@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Produtos | Christmas Dreams</title>
+
+    <meta name="description" content="Descubra a coleção especial de Natal da Christmas Dreams.">
+
+    <link rel="icon" href="img/logo-christmas-dreams.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="barra-superior">
+        Frete grátis para todo o Brasil nas compras acima de R$ 199
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            <img src="img/logo-christmas-dreams.png"
+                 alt="Christmas Dreams">
+        </a>
+
+        <button class="menu-btn" onclick="abrirMenu()"
+                aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <nav>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html" class="ativo">Produtos</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <a href="carrinho.html" class="link-carrinho">
+    🛍️ Minha sacola
+    <span id="quantidade-carrinho">0</span>
+</a>
+
+    </header>
+
+    <!-- APRESENTAÇÃO -->
+    <main>
+
+        <section class="produtos-banner">
+
+            <span class="subtitulo">
+                CHRISTMAS DREAMS COLLECTION
+            </span>
+
+            <h1>Uma coleção feita de magia</h1>
+
+            <p>
+                Detalhes especiais para tornar seu Natal inesquecível.
+            </p>
+
+            <a href="#catalogo" class="botao">
+                Explorar coleção →
+            </a>
+
+        </section>
+
+        <!-- CATÁLOGO -->
+        <section class="catalogo" id="catalogo">
+
+            <div class="catalogo-titulo">
+                <span></span>
+                <h2>Nossa coleção</h2>
+                <span></span>
+            </div>
+
+            <p class="catalogo-descricao">
+                Encontre pequenos detalhes que fazem a diferença.
+            </p>
+
+            <!-- PESQUISA -->
+            <div class="filtros">
+
+                <input
+                    type="search"
+                    id="busca"
+                    placeholder="Buscar um produto..."
+                    aria-label="Buscar produtos"
+                >
+
+                <select id="categoria">
+                    <option value="todos">Todas as categorias</option>
+                    <option value="Enfeites">Enfeites de árvore</option>
+                    <option value="Luzes">Luzes natalinas</option>
+                    <option value="Brinquedos">Brinquedos</option>
+                    <option value="Embalagens">Embalagens e cartões</option>
+                    <option value="Decoração">Decoração da casa</option>
+                    <option value="Livros">Livros</option>
+                </select>
+
+            </div>
+
+            <!-- QUANTIDADE DE PRODUTOS -->
+            <p class="quantidade" id="quantidade-produtos">
+                Carregando coleção...
+            </p>
+
+            <!-- PRODUTOS GERADOS PELO JAVASCRIPT -->
+            <div class="produtos-grid" id="lista-produtos">
+
+                <!-- Os 50 produtos serão inseridos aqui pelo JavaScript -->
+
+            </div>
+
+        </section>
+
+        <!-- FRASE FINAL -->
+        <section class="frase-final">
+
+            <span class="subtitulo">CHRISTMAS DREAMS</span>
+
+            <h2>O encanto está nos detalhes.</h2>
+
+            <p>
+                Porque cada Natal merece ser extraordinário.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="index.html">
+            <img src="img/logo-christmas-dreams.png"
+                 alt="Logo Christmas Dreams">
+        </a>
+
+        <p>O encanto do Natal em cada detalhe.</p>
+
+        <span>© 2026 Christmas Dreams. Todos os direitos reservados.</span>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/musica.js"></script>
+    <script src="js/sino.js"></script>
+
+</body>
+</html>

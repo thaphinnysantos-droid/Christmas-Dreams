@@ -1,0 +1,51 @@
+
+/* RESPONSIVIDADE - PÁGINA CONTATO */
+
+@media (max-width: 850px) {
+
+    .contato-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contato-header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contato-conteudo {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 65px 7%;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .contato-hero {
+        min-height: 300px;
+        padding: 50px 20px;
+    }
+
+    .contato-hero h1 {
+        font-size: 36px;
+    }
+
+    .contato-texto h2 {
+        font-size: 34px;
+    }
+
+    .contato-formulario {
+        padding: 25px 18px;
+    }
+
+    .contato-header nav {
+        gap: 14px;
+    }
+
+    .contato-link {
+        margin-top: 5px;
+    }
+
+}
